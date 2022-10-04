@@ -1,0 +1,69 @@
+.headline {
+    width: 100%;
+    height: 895px;
+    padding-left: 14.32%;
+    padding-top: 175px;
+
+}
+
+.headline__title {
+    width: 21.87%;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.063rem;
+    line-height: 74px;
+
+    color: #01996D;
+
+}
+
+.headline__text {
+    width: 21.87%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+
+    color: #484848;
+
+}
+
+.headline__button {
+    background: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+    padding: 20px 50px;
+    margin-top: 53px;
+}
+
+/* Mindfucking with adaptive */
+@media (max-width: 1024px) {
+    .headline__title {
+        font-size: 32px;
+    }
+
+    .headline__text {}
+
+    .headline__button {}
+}
+
+@media (max-width: 768px) {
+    .headline__title {
+        font-size: px;
+    }
+
+    .headline__text {}
+
+    .headline__button {}
+}
+@media (max-width: 420px) {
+    .headline__title {
+        font-size: 12px;
+    }
+
+    .headline__text {}
+
+    .headline__button {}
+}
