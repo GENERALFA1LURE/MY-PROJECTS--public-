@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    padding: 18px 14.32%;
+
+
+}
+.logo {
+width: 10%;
+height: 60px;
+margin-right: 8.02%;
+
+}
+.nav {
+flex: 1 1 1%;
+height: 60px;
+margin-right: 13.75%;
+
+}
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+.login {
+width: 20%;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+}
+.button {
+
+}
+.button1 {
+    background-color: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+    color: aliceblue;
+    width: 60%;
+    height: 51px;
+}
