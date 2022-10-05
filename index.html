@@ -19,36 +19,30 @@
 
 <body>
     <header class="header">
-        <img class="logo" src="./img/LOGO.svg" alt="">
+        <nav class="navbar">
+            <img class="logo" src="./img/LOGO.svg" alt="">
+            <input type="checkbox" id="toggler">
+            <label for="toggler"> <i class="ri-menu-line"></i></label>
+            <input id="checkbox__menu" type="checkbox"/>
+            <div class="menu">
+                <ul class="list">
+                    <li><a href="#">Why Alivio</a></li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+            </div>
 
-        <nav class="nav">
-            <ul>
-                <li>
-                    <a href="">Why Alivio</a>
-                </li>
-                <li>
-                    <a href="">Solutions</a>
-                </li>
-                <li>
-                    <a href="">Community</a>
-                </li>
-                <li>
-                    <a href="">Pricing</a>
-                </li>
-            </ul>
+            <label for="checkbox__menu" class="menu__button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
         </nav>
-        <div class="login">
-            <a class="button --is-secondary">
-                Sign in
-            </a>
-            <button class="button">
-                Start trial
-            </button>
-        </div>
     </header>
     <div class="headline">
         <h1 class="headline__title">
-            Be aware,
+            Be aware, <br />
             Manage well.
         </h1>
         <p class="headline__text">Everyone experiences stress in different ways.

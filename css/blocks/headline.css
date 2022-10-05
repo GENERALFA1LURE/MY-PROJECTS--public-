@@ -7,12 +7,11 @@
 }
 
 .headline__title {
-    width: 21.87%;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 700;
     font-size: 4.063rem;
-    line-height: 74px;
+    line-height: 1.2em;
 
     color: #01996D;
 
@@ -44,26 +43,52 @@
         font-size: 32px;
     }
 
-    .headline__text {}
+    .headline__text {
+        font-size: 15px;
+    }
 
     .headline__button {}
 }
 
 @media (max-width: 768px) {
     .headline__title {
-        font-size: px;
+        font-size: 50px;
+        width: 100%;
+        text-align: center;
     }
 
-    .headline__text {}
+    .headline__text {
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
 
-    .headline__button {}
+    .headline__button {
+        margin: 0 auto;
+        display: block;
+    }
+    .headline {
+        padding-left: 0%;
+        padding-top: 75px;
+    }
 }
+
 @media (max-width: 420px) {
     .headline__title {
-        font-size: 12px;
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+
     }
 
-    .headline__text {}
+    .headline__text {
+        font-size: 10px;
+        width: 100%;
+        text-align: center;
+    }
 
-    .headline__button {}
+    .headline__button {
+        margin: 0 auto;
+        display: block;
+    }
 }
