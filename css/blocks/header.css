@@ -5,6 +5,7 @@
     justify-content: center;
     background-color: white;
     padding: 15px;
+    border-bottom: 1px solid grey;
 }
 .navbar {
     text-decoration: none;
@@ -38,13 +39,26 @@
     width: 20px;
     height: 2px;
     background-color: black;
-    margin-bottom: 5px;
+    margin-bottom: 5px; 
+    transition: 1s;
+
     
 }
 .menu__button {
     display: flex;
     flex-direction: column;
     z-index: 200;
+}
+
+#checkbox__menu:checked ~ .menu__button span:nth-child(2) {
+    transform: translateX(-2000%) rotate(500deg) rotateY(356deg) scale(700%);
+}
+#checkbox__menu:checked ~ .menu__button span:nth-child(1) {
+    transform: rotate(405deg) translateY(500%);
+    
+}
+#checkbox__menu:checked ~ .menu__button span:nth-child(3) {
+    transform: rotate(-405deg) translateY(-500%);
 
 }
 @media (max-width:600px) {
