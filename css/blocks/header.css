@@ -51,7 +51,7 @@
 }
 
 #checkbox__menu:checked ~ .menu__button span:nth-child(2) {
-    transform: translateX(-2500%) rotate(500deg) rotateY(356deg) scale(700%);
+    transform: translateX(-2600%) rotate(500deg) rotateY(356deg) scale(700%);
 }
 #checkbox__menu:checked ~ .menu__button span:nth-child(1) {
     transform: rotate(405deg) translateY(500%);
