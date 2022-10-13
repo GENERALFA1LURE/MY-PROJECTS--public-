@@ -51,7 +51,7 @@ p+p {
     margin-top: 1en;
 }
 
-ul {
+ul, ol {
     list-style: none;
 }
 
