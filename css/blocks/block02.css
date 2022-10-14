@@ -104,8 +104,8 @@
 @media (max-width: 1024px) {
     .content {
         flex-direction: column;
-        grid-template-columns: inherit;
-        grid-gap: 0ch;
+        grid-template-columns: 1fr;
+        grid-gap: 0;
     }
 
     .sosok {
@@ -178,5 +178,10 @@
 
     .block02__subtitle {
         font-size: 20px;
+    }
+    .block02 {
+        padding-right: 8%;
+        padding-left: 8%;
+        padding-top: 60px;
     }
 }

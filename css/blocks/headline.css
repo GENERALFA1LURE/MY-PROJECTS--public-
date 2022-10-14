@@ -37,6 +37,7 @@
     border-radius: 4px;
     padding: 20px 50px;
     margin-top: 53px;
+    color: white;
 }
 
 /* Mindfucking with adaptive */
@@ -84,7 +85,7 @@
     }
 
     .headline__text {
-        font-size: 10px;
+        font-size: 15px;
         width: 100%;
         text-align: center;
     }
@@ -92,5 +93,13 @@
     .headline__button {
         margin: 0 auto;
         display: block;
+        width: 100%;
+        margin-top: 20px;
     }
+    .headline {
+        height: 450px;
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+    
 }
