@@ -1,45 +1,152 @@
 .product-block {
-    padding-left: 16.75%;
-    padding-right: 16.75%;
+    width: 100%;
+    padding-left: 14.32%;
+    padding-right: 14.32%;
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 168px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.product-block__left-block {
+    width: 50%;
+    position: relative;
+}
+
+.product-block__background-color {
+    width: 100%;
+    background: rgba(1, 153, 109, 0.2);
+    border-radius: 18px;
+    height: 641px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .product-block__main-image {
-    
+    height: 100%;
 }
+
 .product-block__member-card {
-
+    width: 300px;
+    height: 300px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: absolute;
+    left: -60px;
+    bottom: -70px;
+    background-color: white;
 }
+
 .product-block__member-card-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.49px;
+    line-height: 157%;
+    /* or 23px */
+
+    text-align: center;
+
+    color: #000000;
 
 }
+
 .product-block__line {
-
+    width: 110px;
+    height: 1px;
+    background-color: #000000;
 }
+
 .product-block__member-image {
-
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
 }
+
 .product-block__member-name {
-
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.9351px;
+    line-height: 157%;
+    text-align: center;
+    color: #000000;
 }
+
 .product-block__name-list {
-
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15.9292px;
+    line-height: 157%;
+    color: #000000;
 }
+
 .product-block__list {
-
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.6195px;
+    line-height: 157%;
+    text-align: center;
+    color: #000000;
+    list-style: disc;
 }
+
 .product-block__info {
-
+    width: 50%;
+    padding-left: 85px;
 }
+
 .product-block__pretitle {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+    color: #424242;
 
 }
+
 .product-block__title {
-
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    color: #01996D;
 }
+
 .product-block__text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    margin-top: 20px;
 
+    color: #484848;
 }
-.product-block__button {
 
+.product-block__button {
+    padding: 20px 50px;
+    margin-top: 40px ;
+    gap: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
 }
