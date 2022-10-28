@@ -2,9 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: white;
     padding: 15px;
+    padding-left: 14.32%;
+    padding-right: 14.32%;
     border-bottom: 1px solid grey;
 }
 .navbar {

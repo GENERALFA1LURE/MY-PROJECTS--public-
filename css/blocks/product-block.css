@@ -25,6 +25,7 @@
 
 .product-block__main-image {
     height: 100%;
+
 }
 
 .product-block__member-card {
@@ -50,12 +51,8 @@
     font-weight: 600;
     font-size: 14.49px;
     line-height: 157%;
-    /* or 23px */
-
     text-align: center;
-
     color: #000000;
-
 }
 
 .product-block__line {
@@ -149,4 +146,40 @@
     font-size: 20px;
     line-height: 25px;
     color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .product-block {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-left: 8%;
+        padding-right: 8%;
+
+    }
+    .product-block__main-image {
+        display: none;
+
+    }
+    .product-block__background-color {
+        opacity: 0;
+        height: 330px;
+    }
+    .product-block__member-card {
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+    .product-block__left-block {
+        width: 100%;
+    }
+    .product-block__info {
+        width: 100%;
+        padding: 0;
+    }
+    .product-block__button {
+        width: 100%;
+    }
+
 }
